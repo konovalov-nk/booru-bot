@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idx: 1
+  hash: MyString
+  rating: MyString
+  image: MyString
+  file_url: MyString
+  tags: MyString
+  change: 1
+  width: 1
+  height: 1
+
+two:
+  idx: 1
+  hash: MyString
+  rating: MyString
+  image: MyString
+  file_url: MyString
+  tags: MyString
+  change: 1
+  width: 1
+  height: 1

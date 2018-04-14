@@ -25,6 +25,15 @@ gem 'puma', '~> 3.7'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
+
+# Using RSpec with FactoryBot for testing.
+gem 'factory_bot_rails'
+gem 'rspec-rails'
+
+# BCrypt for hashing user passwords.
+gem 'bcrypt'
+
+# Sidekiq for scraping jobs.
 gem 'sidekiq'
 
 group :development, :test do

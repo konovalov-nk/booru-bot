@@ -1,0 +1,18 @@
+inherit_from: .rubocop_todo.yml
+AllCops:
+  Include:
+    - '**/Gemfile'
+    - '**/Guardfile'
+    - Rakefile
+    - config.ru
+    - lib/**/*.rake
+  Exclude:
+    - db/schema.rb
+
+Layout/AlignParameters:
+  Exclude:
+    - 'bin/*'
+
+Layout/EmptyLines:
+  Exclude:
+    - 'bin/*'
